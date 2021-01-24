@@ -9,14 +9,19 @@
   },
   "dependencies": {
     "date-fns": "^2.16.1",
+    "faunadb": "^4.0.0",
+    "graphql": "^15.4.0",
+    "graphql-request": "^3.4.0",
     "gray-matter": "^4.0.2",
     "mongodb": "^3.6.3",
     "next": "^10.0.0",
     "next-auth": "^3.1.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-hook-form": "^6.14.2",
     "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "remark-html": "^13.0.1",
+    "swr": "^0.4.0"
   },
   "peerOptionalDependencies": {
     "mongodb": "^3.6.3"
