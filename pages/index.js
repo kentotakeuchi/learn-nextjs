@@ -36,8 +36,8 @@ export default function Page({ isConnected }) {
 }
 
 export async function getServerSideProps(context) {
+  // mongodb
   const { client, db } = await connectToDatabase();
-
   const isConnected = await client.isConnected(); // Returns true or false
 
   return {
