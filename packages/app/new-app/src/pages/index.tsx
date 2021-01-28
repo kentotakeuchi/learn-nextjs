@@ -10,7 +10,7 @@ const Index: NextPage = () => {
 
   return (
     <div>
-      <Button label={capitalize('hello template')} onClick={handleClick} />
+      <Button label={capitalize('hello new-app')} onClick={handleClick} />
     </div>
   )
 }
