@@ -1,0 +1,4 @@
+/** lerna */
+"test": "lerna run test --since",
+"test": "lerna run test --scope=@learn-nextjs/common" // run only @learn-nextjs/common
+"test": "lerna run test --scope={@learn-nextjs/common,@learn-nextjs/server}" // run multipe packages inside {} (not allow space)
