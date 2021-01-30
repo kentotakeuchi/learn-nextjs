@@ -1,8 +1,15 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "1.0.4"
+  "version": "1.0.4",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish"
+    },
+    "bootstrap": {
+      "ignore": "component-*"
+    }
+  }
 }

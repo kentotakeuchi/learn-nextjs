@@ -4,6 +4,7 @@ import { signIn, signOut, useSession } from 'next-auth/client';
 import { connectToDatabase } from '../utils/mongodb';
 
 export default function Page({ isConnected }) {
+  console.log('test for lerna');
   const [session, loading] = useSession();
 
   return (
