@@ -9,7 +9,11 @@
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
     "ls": "lerna ls",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "common": "yarn workspace @learn-nextjs/common",
+    "official": "yarn workspace @learn-nextjs/official",
+    "server": "yarn workspace @learn-nextjs/server",
+    "tutorials": "yarn workspace @learn-nextjs/tutorials"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
