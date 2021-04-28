@@ -14,5 +14,12 @@ module.exports = {
     // If you want to use a cloud provider to optimize images instead of using the Next.js' built-in Image Optimization, you can configure the loader and path prefix
     loader: 'imgix',
     path: 'https://example.com/myaccount/'
+  },
+  // amp
+  amp: {
+    // You can set up custom AMP validator in next.config.js as shown below:
+    validator: './custom_validator.js',
+    // To turn off AMP validation add the following code to next.config.js
+    skipValidation: true
   }
 }
